@@ -12,4 +12,4 @@ My Portfolio, Template work in progress
 
 *HTML, CSS, JS*
 
-### [You are viewing the documentation](https://github.com/maxfinnsjo/port/blob/master/README.md)
+### [You are viewing the documentation](https://github.com/maxfinnsjo/port-of-call/blob/master/README.md)
