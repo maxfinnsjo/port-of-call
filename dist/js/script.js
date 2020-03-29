@@ -1,4 +1,4 @@
-//Menu script
+//Menu script is .. 
 function toggleClassMenu() {
 	myMenu.classList.add("menu--animatable");	
 	myMenu.classList.toggle("menu--visible");
