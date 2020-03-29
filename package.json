@@ -13,7 +13,8 @@
     "node-sass": "^4.12.0"
   },
   "scripts": {
-    "sass": "node-sass ./src/scss/ -o ./dist/css/ -w -r --source-map-embed --source-map-contents --output-style expanded | node-sass ./src/scss/main.scss ./dist/css/main.min.css -w --output-style compressed"
+    "sass": "node-sass ./src/scss/ -o ./dist/css/ -w -r --source-map-embed --source-map-contents --output-style expanded | node-sass ./src/scss/main.scss ./dist/css/main.min.css -w --output-style compressed",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [
     "sass",
@@ -29,5 +30,8 @@
   "bugs": {
     "url": "https://github.com/maxfinnsjo/port/issues"
   },
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
 }
