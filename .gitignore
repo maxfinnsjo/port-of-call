@@ -1,0 +1,11 @@
+
+node_modules
+.vscode/
+.history
+src/
+.DS_Store
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+

@@ -1,0 +1,33 @@
+{
+  "name": "port-of-call",
+  "version": "0.1.0",
+  "author": "Max Finnsjö <max.finnsjo@gmail.com>",
+  "description": "My Portfolio, under construction.",
+  "homepage": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxfinnsjo/port.git"
+  },
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  },
+  "scripts": {
+    "sass": "node-sass ./src/scss/ -o ./dist/css/ -w -r --source-map-embed --source-map-contents --output-style expanded | node-sass ./src/scss/main.scss ./dist/css/main.min.css -w --output-style compressed"
+  },
+  "keywords": [
+    "sass",
+    "setup",
+    "boilerplate",
+    "framework",
+    "ui",
+    "css framework",
+    "front end",
+    "design"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maxfinnsjo/port/issues"
+  },
+  "private": false
+}
